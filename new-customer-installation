@@ -1,0 +1,75 @@
+# New Customer Installation Guide
+
+## Overview
+
+This document outlines the structured process for creating and configuring a new customer environment in a specific software.
+
+
+---
+
+## Prerequisites
+
+- Administrative access to server environment;
+- Access to database client tools;
+- Backup files available (if applicable);
+- Permission to modify registry entries;
+- Secure credential storage access;
+
+---
+
+## 1. Create Customer User
+
+1. Open the required customer folder and locate the "Create User" script.
+2. Edit the file.
+3. Replace the default entry with the customer name.
+4. Save the file and run the script.
+5. Confirm execution by pressing any key when prompted.
+
+---
+
+## 2. Apply Registry Configuration
+
+1. Open the “Application Install → New Install” folder.
+2. Run all registry files to merge settings.
+3. Copy configuration files from bottom section to overwrite top section.
+4. Proceed to database client configuration.
+
+---
+
+## 3. Database Client Configuration
+
+1. Navigate to: C:\Database\Client\network\admin
+2. Open configuration file (e.g., `tnsnames`).
+3. Duplicate an existing entry.
+4. Replace placeholder with `CUSTOMER_NAME`.
+5. Repeat configuration for all installed client versions.
+6. Save all files.
+
+## 4 Compile & Validate
+
+1. Open the database.
+2. Log in as CUSTOMER_NAME.
+3. Compile invalid objects.
+4. Run required GRANT statements.
+5. Execute remaining statements in new database window.
+
+Confirm:
+“No invalid objects found”.
+
+---
+
+## 5 Credentials setup
+
+1. Add CUSTOMER_NAME contact and password in password manager.
+2. Ensure correct access permissions are assigned.
+
+---
+
+## 6 Post-setup Checks
+
+1. Confirm application configuration version updated.
+2. Validate login via application launcher.
+
+Related articles and links: 
+Cloud install
+www.blablabla.com
