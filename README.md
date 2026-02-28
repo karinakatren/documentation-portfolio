@@ -13,9 +13,9 @@ These samples demonstrate my structure, clarity, troubleshooting methodology, on
 
 ## Contents
 
-- Troubleshooting Guide (enterprise scenario)
-- Technical Onboarding Guide
-- Structured Bug Report Example
+- Troubleshooting Guide;
+- Technical Onboarding Guide;
+- Structured Bug Report Example.
 
 Each document reflects real-world workflows I have worked with in IT operations and technical support environments.
 
@@ -23,7 +23,7 @@ Each document reflects real-world workflows I have worked with in IT operations 
 
 ## Approach to Documentation
 
- My documentation work usually consist with:
+ My documentation work usually consists of:
 
 - A problem definition;
 - Logical structure;
