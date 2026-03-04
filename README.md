@@ -15,7 +15,9 @@ These samples demonstrate my structure, clarity, troubleshooting methodology, on
 
 - Troubleshooting Guide;
 - Technical Onboarding Guide;
-- Structured Bug Report Example.
+- Structured Bug Report Example;
+- ci-cd-pipeline example;
+- Terraform infrastructure.
 
 Each document reflects real-world workflows I have worked with in IT operations and technical support environments.
 
